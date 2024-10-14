@@ -1,0 +1,16 @@
+{
+  "12345": {
+    "Population": 50000,
+    "MedianIncome": 65000,
+    "MedianAge": 35,
+    "HomeOwnershipRate": 65,
+    "UnemploymentRate": 4.5
+  },
+  "67890": {
+    "Population": 75000,
+    "MedianIncome": 72000,
+    "MedianAge": 38,
+    "HomeOwnershipRate": 70,
+    "UnemploymentRate": 3.8
+  }
+}
