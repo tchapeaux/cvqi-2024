@@ -14,8 +14,9 @@ const MAPTILER_KEY = "oZEk7t5u3PrT6zsjrxlA";
 
 const handleLocationSubmit = async (submittedLocation: string) => {
   const commune =
-    COMMUNES_DATA.find((c) => c.label === submittedLocation) ||
-    COMMUNES_DATA.find((c) => c.zip.includes(Number(submittedLocation)));
+    COMMUNES_DATA.find(
+      (c) => c.label.toLowerCase() === submittedLocation.toLowerCase()
+    ) || COMMUNES_DATA.find((c) => c.zip.includes(Number(submittedLocation)));
 
   location.value = commune?.label || "Non trouvé";
   zipCode.value = (commune?.zip[0] && String(commune?.zip[0])) || "Non trouvé";
@@ -79,10 +80,11 @@ const currentLocationData = computed(() =>
 <template>
   <div class="app">
     <header>
-      <h1>Ca vote quoi ici ?<sup>édition 24</sup></h1>
+      <h1>Ca vote quoi ici&nbsp;?</h1>
     </header>
     <main>
       <template v-if="!hasLocationData">
+        <p>Recherche rapide des résultats des élections communales de 2024</p>
         <button @click="handleAutoLocate">🗺️ Utiliser ma localisation</button>
         <p>ou</p>
         <LocationInput @submit="handleLocationSubmit" />
@@ -91,10 +93,11 @@ const currentLocationData = computed(() =>
         <p>📍 {{ location }} ({{ zipCode }})</p>
         <button @click="resetLocation">Recommencer</button>
         <PieChart v-if="currentLocationData" :data="currentLocationData" />
-        <p>Voir les résultats sur la RTBF</p>
       </template>
     </main>
     <footer>
+      <hr />
+      <p>🍍Un web-gadget par tchapeaux</p>
       <p>
         Données électorales récupérées le 14/10/2024 de la RTBF (<a
           href="https://www.rtbf.be/elections-2024/communales/toutes-les-communes"
@@ -103,7 +106,7 @@ const currentLocationData = computed(() =>
         >).<br />Merci le service public 🙏
       </p>
       <p>
-        Geo-location service provided by
+        Geo-localisation automatique par
         <a href="https://maptiler.com" target="_blank"
           ><strong>map</strong>tiler</a
         >.
