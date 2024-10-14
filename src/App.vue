@@ -4,6 +4,7 @@ import LocationInput from "./components/LocationInput.vue";
 import PieChart from "./components/PieChart.vue";
 import axios from "axios";
 import COMMUNES_DATA from "./assets/communes.json";
+import type { Context } from "../types/maptiler.d.ts";
 
 const location = ref("");
 const zipCode = ref("");
@@ -39,10 +40,11 @@ const handleAutoLocate = async () => {
           `https://api.maptiler.com/geocoding/${longitude},${latitude}.json?key=${MAPTILER_KEY}`
         );
 
+        const allContext: Context[] = response.data.features?.[0].context;
+
         zipCode.value =
-          response.data.features[0].context.find((c) =>
-            c.id.startsWith("postal_code")
-          )?.text || "Non trouvé";
+          allContext.find((c) => c.id.startsWith("postal_code"))?.text ||
+          "Non trouvé";
 
         location.value =
           COMMUNES_DATA.find((c) => c.zip.includes(Number(zipCode.value)))

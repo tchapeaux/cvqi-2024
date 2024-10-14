@@ -11,6 +11,7 @@ import {
   CategoryScale,
   LinearScale,
 } from "chart.js";
+import type { PartyResult } from "../../types/elections.d.ts";
 
 ChartJS.register(
   ArcElement,
@@ -25,7 +26,7 @@ ChartJS.register(
 ChartJS.defaults.color = "#ccc";
 
 const props = defineProps<{
-  data: Array<object>;
+  data: Array<PartyResult>;
 }>();
 
 const chartData = computed(() => ({
