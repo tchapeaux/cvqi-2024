@@ -34,10 +34,12 @@ const totalSeats = computed(() => seats.value.length);
 
   <ul class="per-group">
     <li v-for="party in props.data" :style="{ '--color': party.color }">
-      {{ party.name }}: {{ party.currentSeats }} siège<span
-        v-if="party.currentSeats > 1"
-        >s</span
-      >
+      <div>
+        {{ party.name }} : {{ party.currentSeats }} siège<span
+          v-if="party.currentSeats > 1"
+          >s</span
+        >
+      </div>
     </li>
   </ul>
 </template>
