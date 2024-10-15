@@ -80,18 +80,23 @@ const currentLocationData = computed(() =>
 <template>
   <div class="app">
     <header>
-      <h1>Ca vote quoi ici&nbsp;?</h1>
+      <h1 class="title">Ca vote quoi ici&nbsp;?</h1>
+      <span class="bulma-fa-mixin"><i class="fas fa-thumbs-up"></i></span>
     </header>
     <main>
       <template v-if="!hasLocationData">
-        <p>Recherche rapide des résultats des élections communales de 2024</p>
-        <button @click="handleAutoLocate">🗺️ Utiliser ma localisation</button>
-        <p>ou</p>
+        <p class="block">
+          Recherche rapide des résultats des élections communales de 2024
+        </p>
+        <button class="block button is-primary" @click="handleAutoLocate">
+          🗺️ Me localiser
+        </button>
+        <p class="block">ou</p>
         <LocationInput @submit="handleLocationSubmit" />
       </template>
       <template v-else>
         <p>📍 {{ location }} ({{ zipCode }})</p>
-        <button @click="resetLocation">Recommencer</button>
+        <button class="button" @click="resetLocation">Recommencer</button>
         <PieChart v-if="currentLocationData" :data="currentLocationData" />
       </template>
     </main>

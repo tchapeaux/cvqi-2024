@@ -13,13 +13,14 @@ const handleSubmit = () => {
 </script>
 
 <template>
-  <div class="location-input">
+  <div class="location-input columns">
     <input
+      class="input column"
       v-model="inputLocation"
       @keyup.enter="handleSubmit"
       placeholder="Commune ou code postal"
     />
-    <button @click="handleSubmit">Localiser</button>
+    <button class="button column" @click="handleSubmit">Localiser</button>
   </div>
 </template>
 

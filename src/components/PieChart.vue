@@ -42,7 +42,7 @@ const chartData = computed(() => ({
 
 const chartOptions = {
   responsive: true,
-  maintainAspectRatio: false,
+  maintainAspectRatio: true,
   circumference: 180,
   rotation: -90,
 };
@@ -57,5 +57,6 @@ const chartOptions = {
 <style scoped>
 .chart-container {
   height: 400px;
+  width: 100%;
 }
 </style>
