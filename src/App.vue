@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import LocationInput from "./components/LocationInput.vue";
-import PieChart from "./components/PieChart.vue";
+import WaffleChart from "./components/WaffleChart.vue";
 import axios from "axios";
 import COMMUNES_DATA from "./assets/communes.json";
 import type { Context } from "../types/maptiler.d.ts";
@@ -79,38 +79,38 @@ const currentLocationData = computed(() =>
 
 <template>
   <div class="app">
-    <header>
-      <h1 class="title">Ca vote quoi ici&nbsp;?</h1>
-      <span class="bulma-fa-mixin"><i class="fas fa-thumbs-up"></i></span>
+    <header class="section">
+      <h1 class="title is-2">Ca vote quoi ici&nbsp;?</h1>
+      <p class="subtitle is-4">
+        Recherche rapide des résultats des élections communales de 2024
+      </p>
     </header>
-    <main>
+    <main class="section">
       <template v-if="!hasLocationData">
-        <p class="block">
-          Recherche rapide des résultats des élections communales de 2024
-        </p>
         <button class="block button is-primary" @click="handleAutoLocate">
-          🗺️ Me localiser
+          Localisation automatique
         </button>
         <p class="block">ou</p>
         <LocationInput @submit="handleLocationSubmit" />
       </template>
       <template v-else>
-        <p>📍 {{ location }} ({{ zipCode }})</p>
-        <button class="button" @click="resetLocation">Recommencer</button>
-        <PieChart v-if="currentLocationData" :data="currentLocationData" />
+        <h2 class="block title is-3">📍 {{ location }} ({{ zipCode }})</h2>
+        <div class="block">
+          <WaffleChart v-if="currentLocationData" :data="currentLocationData" />
+        </div>
+        <button class="button block" @click="resetLocation">Recommencer</button>
       </template>
     </main>
-    <footer>
-      <hr />
-      <p>🍍Un web-gadget par tchapeaux</p>
-      <p>
+    <footer class="section">
+      <p class="block">🍍Un web-gadget par tchapeaux</p>
+      <p class="block">
         Données électorales récupérées le 14/10/2024 de la RTBF (<a
           href="https://www.rtbf.be/elections-2024/communales/toutes-les-communes"
           target="_blank"
           >Source</a
         >).<br />Merci le service public 🙏
       </p>
-      <p>
+      <p class="block">
         Geo-localisation automatique par
         <a href="https://maptiler.com" target="_blank"
           ><strong>map</strong>tiler</a
@@ -122,7 +122,6 @@ const currentLocationData = computed(() =>
 
 <style>
 .app {
-  font-family: Arial, sans-serif;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
