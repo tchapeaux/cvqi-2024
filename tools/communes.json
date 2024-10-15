@@ -11,7 +11,7 @@
       4784
     ],
     "results": {
-      "lastUpdateTime": "2024-10-13T17:31:52+02:00",
+      "lastUpdateTime": "2024-10-13T18:30:09+02:00",
       "percentageCounting": 100,
       "votePlace": {
         "done": 9,
@@ -22,10 +22,10 @@
           "id": "9000058",
           "name": "JETZT",
           "slug": "jetzt",
-          "color": "#987255",
+          "color": "#82b6b7",
           "currentCount": 632,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 2,
           "previousSeats": 0
         },
         {
@@ -35,7 +35,7 @@
           "color": "#82b6b7",
           "currentCount": 2701,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 10,
           "previousSeats": 0
         },
         {
@@ -45,7 +45,7 @@
           "color": "#987255",
           "currentCount": 2416,
           "previousCount": 3326,
-          "currentSeats": 0,
+          "currentSeats": 9,
           "previousSeats": 13
         },
         {
@@ -62,7 +62,7 @@
           "id": "9900049",
           "name": "Gerhard Schmitz",
           "slug": "gerhard-schmitz",
-          "color": "#987255",
+          "color": "#466475",
           "currentCount": -1,
           "previousCount": 190,
           "currentSeats": 0,
@@ -72,7 +72,7 @@
           "id": "9900047",
           "name": "Liste Freches",
           "slug": "liste-freches",
-          "color": "#82b6b7",
+          "color": "#987255",
           "currentCount": -1,
           "previousCount": 1256,
           "currentSeats": 0,
@@ -82,7 +82,7 @@
           "id": "9900046",
           "name": "FLS",
           "slug": "fls",
-          "color": "#82b6b7",
+          "color": "#5c7165",
           "currentCount": -1,
           "previousCount": 1051,
           "currentSeats": 0,
@@ -91,7 +91,7 @@
       ],
       "voteTotalNew": 5744,
       "voteTotalOld": 6031,
-      "seatTotalNew": 0,
+      "seatTotalNew": 21,
       "seatTotalOld": 21
     }
   },
@@ -105,7 +105,7 @@
       4731
     ],
     "results": {
-      "lastUpdateTime": "2024-10-13T17:31:52+02:00",
+      "lastUpdateTime": "2024-10-13T18:30:09+02:00",
       "percentageCounting": 100,
       "votePlace": {
         "done": 5,
@@ -119,27 +119,27 @@
           "color": "#60b83d",
           "currentCount": 719,
           "previousCount": 1166,
-          "currentSeats": 0,
+          "currentSeats": 3,
           "previousSeats": 6
         },
         {
           "id": "9000037",
           "name": "SPplus",
           "slug": "spplus",
-          "color": "#987255",
+          "color": "#466475",
           "currentCount": 439,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 2,
           "previousSeats": 0
         },
         {
           "id": "9000039",
           "name": "CSL",
           "slug": "csl",
-          "color": "#987255",
+          "color": "#82b6b7",
           "currentCount": 1695,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 9,
           "previousSeats": 0
         },
         {
@@ -149,14 +149,14 @@
           "color": "#5c7165",
           "currentCount": 1440,
           "previousCount": 1542,
-          "currentSeats": 0,
+          "currentSeats": 7,
           "previousSeats": 8
         },
         {
           "id": "9900067",
           "name": "GEM VORW CSL",
           "slug": "gem-vorw-csl",
-          "color": "#5c7165",
+          "color": "#466475",
           "currentCount": -1,
           "previousCount": 1401,
           "currentSeats": 0,
@@ -165,7 +165,7 @@
       ],
       "voteTotalNew": 4291,
       "voteTotalOld": 4106,
-      "seatTotalNew": 0,
+      "seatTotalNew": 21,
       "seatTotalOld": 21
     }
   },
@@ -179,7 +179,7 @@
       4711
     ],
     "results": {
-      "lastUpdateTime": "2024-10-13T17:31:52+02:00",
+      "lastUpdateTime": "2024-10-13T18:30:09+02:00",
       "percentageCounting": 100,
       "votePlace": {
         "done": 5,
@@ -193,17 +193,17 @@
           "color": "#60b83d",
           "currentCount": 307,
           "previousCount": 473,
-          "currentSeats": 0,
+          "currentSeats": 1,
           "previousSeats": 3
         },
         {
           "id": "9000042",
           "name": "SPplus",
           "slug": "spplus",
-          "color": "#5c7165",
+          "color": "#82b6b7",
           "currentCount": 199,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 1,
           "previousSeats": 0
         },
         {
@@ -213,17 +213,17 @@
           "color": "#466475",
           "currentCount": 1470,
           "previousCount": 1082,
-          "currentSeats": 0,
+          "currentSeats": 8,
           "previousSeats": 6
         },
         {
           "id": "9000043",
           "name": "UNION",
           "slug": "union",
-          "color": "#987255",
+          "color": "#82b6b7",
           "currentCount": 1144,
           "previousCount": 1244,
-          "currentSeats": 0,
+          "currentSeats": 7,
           "previousSeats": 7
         },
         {
@@ -239,7 +239,7 @@
       ],
       "voteTotalNew": 3117,
       "voteTotalOld": 3003,
-      "seatTotalNew": 0,
+      "seatTotalNew": 17,
       "seatTotalOld": 17
     }
   },
@@ -254,7 +254,7 @@
       4728
     ],
     "results": {
-      "lastUpdateTime": "2024-10-13T17:31:52+02:00",
+      "lastUpdateTime": "2024-10-13T18:30:09+02:00",
       "percentageCounting": 100,
       "votePlace": {
         "done": 7,
@@ -268,17 +268,17 @@
           "color": "#EE3439",
           "currentCount": 943,
           "previousCount": 995,
-          "currentSeats": 0,
+          "currentSeats": 4,
           "previousSeats": 5
         },
         {
           "id": "9000062",
           "name": "NBK",
           "slug": "nbk",
-          "color": "#466475",
+          "color": "#5c7165",
           "currentCount": 613,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 3,
           "previousSeats": 0
         },
         {
@@ -288,17 +288,17 @@
           "color": "#5c7165",
           "currentCount": 1606,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 8,
           "previousSeats": 0
         },
         {
           "id": "9000060",
           "name": "CSP-LES ENGAG\u00c9S",
           "slug": "csp-les-engages",
-          "color": "#82b6b7",
+          "color": "#5c7165",
           "currentCount": 1292,
           "previousCount": 1789,
-          "currentSeats": 0,
+          "currentSeats": 6,
           "previousSeats": 8
         },
         {
@@ -324,7 +324,7 @@
       ],
       "voteTotalNew": 4452,
       "voteTotalOld": 4608,
-      "seatTotalNew": 0,
+      "seatTotalNew": 21,
       "seatTotalOld": 21
     }
   },
@@ -338,7 +338,7 @@
       4701
     ],
     "results": {
-      "lastUpdateTime": "2024-10-13T17:31:52+02:00",
+      "lastUpdateTime": "2024-10-13T18:30:09+02:00",
       "percentageCounting": 100,
       "votePlace": {
         "done": 13,
@@ -352,7 +352,7 @@
           "color": "#FF5400",
           "currentCount": 3851,
           "previousCount": 3834,
-          "currentSeats": 0,
+          "currentSeats": 10,
           "previousSeats": 9
         },
         {
@@ -362,44 +362,44 @@
           "color": "#60b83d",
           "currentCount": 2622,
           "previousCount": 2857,
-          "currentSeats": 0,
+          "currentSeats": 7,
           "previousSeats": 7
         },
         {
           "id": "9000051",
           "name": "PFF-MR Eupen",
           "slug": "pff-mr-eupen",
-          "color": "#5c7165",
+          "color": "#987255",
           "currentCount": 1774,
           "previousCount": 2488,
-          "currentSeats": 0,
+          "currentSeats": 4,
           "previousSeats": 6
         },
         {
           "id": "9000052",
           "name": "OBL",
           "slug": "obl",
-          "color": "#987255",
+          "color": "#466475",
           "currentCount": 1723,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 4,
           "previousSeats": 0
         },
         {
           "id": "9000050",
           "name": "SPplus",
           "slug": "spplus",
-          "color": "#82b6b7",
+          "color": "#987255",
           "currentCount": 1065,
           "previousCount": 1498,
-          "currentSeats": 0,
+          "currentSeats": 2,
           "previousSeats": 3
         },
         {
           "id": "9900064",
           "name": "Liste - WRMA",
           "slug": "liste-wrma",
-          "color": "#987255",
+          "color": "#466475",
           "currentCount": -1,
           "previousCount": 360,
           "currentSeats": 0,
@@ -408,7 +408,7 @@
       ],
       "voteTotalNew": 11034,
       "voteTotalOld": 11036,
-      "seatTotalNew": 0,
+      "seatTotalNew": 27,
       "seatTotalOld": 25
     }
   },
@@ -421,7 +421,7 @@
       4750
     ],
     "results": {
-      "lastUpdateTime": "2024-10-13T17:31:52+02:00",
+      "lastUpdateTime": "2024-10-13T18:30:09+02:00",
       "percentageCounting": 100,
       "votePlace": {
         "done": 6,
@@ -432,17 +432,17 @@
           "id": "9000035",
           "name": "Zukunft im Blick",
           "slug": "zukunft-im-blick",
-          "color": "#5c7165",
+          "color": "#82b6b7",
           "currentCount": 2830,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 17,
           "previousSeats": 0
         },
         {
           "id": "9900059",
           "name": "ZGG",
           "slug": "zgg",
-          "color": "#466475",
+          "color": "#987255",
           "currentCount": -1,
           "previousCount": 736,
           "currentSeats": 0,
@@ -452,7 +452,7 @@
           "id": "9900057",
           "name": "FBL",
           "slug": "fbl",
-          "color": "#466475",
+          "color": "#5c7165",
           "currentCount": -1,
           "previousCount": 1634,
           "currentSeats": 0,
@@ -471,7 +471,7 @@
       ],
       "voteTotalNew": 2827,
       "voteTotalOld": 3423,
-      "seatTotalNew": 0,
+      "seatTotalNew": 17,
       "seatTotalOld": 17
     }
   },
@@ -485,7 +485,7 @@
       4791
     ],
     "results": {
-      "lastUpdateTime": "2024-10-13T17:31:52+02:00",
+      "lastUpdateTime": "2024-10-13T18:30:09+02:00",
       "percentageCounting": 100,
       "votePlace": {
         "done": 3,
@@ -496,7 +496,7 @@
           "id": "9000031",
           "name": "F.W.",
           "slug": "fw",
-          "color": "#466475",
+          "color": "#82b6b7",
           "currentCount": 98,
           "previousCount": -1,
           "currentSeats": 0,
@@ -506,26 +506,26 @@
           "id": "9000029",
           "name": "BS+",
           "slug": "bs",
-          "color": "#466475",
+          "color": "#5c7165",
           "currentCount": 582,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 3,
           "previousSeats": 0
         },
         {
           "id": "9000030",
           "name": "A.G.",
           "slug": "ag",
-          "color": "#82b6b7",
+          "color": "#5c7165",
           "currentCount": 1461,
           "previousCount": 1841,
-          "currentSeats": 0,
+          "currentSeats": 10,
           "previousSeats": 13
         }
       ],
       "voteTotalNew": 2140,
       "voteTotalOld": 1838,
-      "seatTotalNew": 0,
+      "seatTotalNew": 13,
       "seatTotalOld": 13
     }
   },
@@ -539,7 +539,7 @@
       4761
     ],
     "results": {
-      "lastUpdateTime": "2024-10-13T17:33:40+02:00",
+      "lastUpdateTime": "2024-10-13T18:33:40+02:00",
       "percentageCounting": 100,
       "votePlace": {
         "done": 4,
@@ -550,7 +550,7 @@
           "id": "9000034",
           "name": "BRM",
           "slug": "brm",
-          "color": "#5c7165",
+          "color": "#82b6b7",
           "currentCount": 85,
           "previousCount": -1,
           "currentSeats": 0,
@@ -570,7 +570,7 @@
           "id": "9000032",
           "name": "MfG",
           "slug": "mfg",
-          "color": "#987255",
+          "color": "#466475",
           "currentCount": 1316,
           "previousCount": -1,
           "currentSeats": 6,
@@ -580,7 +580,7 @@
           "id": "9900035",
           "name": "Liste Wirtz",
           "slug": "liste-wirtz",
-          "color": "#5c7165",
+          "color": "#987255",
           "currentCount": -1,
           "previousCount": 3033,
           "currentSeats": 0,
@@ -603,7 +603,7 @@
       4771
     ],
     "results": {
-      "lastUpdateTime": "2024-10-13T17:31:52+02:00",
+      "lastUpdateTime": "2024-10-13T18:30:09+02:00",
       "percentageCounting": 100,
       "votePlace": {
         "done": 5,
@@ -614,17 +614,17 @@
           "id": "9000040",
           "name": "GI AMEL 2025-2030",
           "slug": "gi-amel-2025-2030",
-          "color": "#987255",
+          "color": "#466475",
           "currentCount": 3233,
           "previousCount": -1,
-          "currentSeats": 0,
+          "currentSeats": 17,
           "previousSeats": 0
         },
         {
           "id": "9900052",
           "name": "G.Z.",
           "slug": "gz",
-          "color": "#987255",
+          "color": "#5c7165",
           "currentCount": -1,
           "previousCount": 790,
           "currentSeats": 0,
@@ -634,7 +634,7 @@
           "id": "9900051",
           "name": "GI",
           "slug": "gi",
-          "color": "#466475",
+          "color": "#82b6b7",
           "currentCount": -1,
           "previousCount": 2587,
           "currentSeats": 0,
@@ -643,7 +643,7 @@
       ],
       "voteTotalNew": 3231,
       "voteTotalOld": 3376,
-      "seatTotalNew": 0,
+      "seatTotalNew": 17,
       "seatTotalOld": 17
     }
   },
@@ -17406,41 +17406,21 @@
       6240
     ],
     "results": {
-      "lastUpdateTime": "2024-10-13T21:26:09+02:00",
-      "percentageCounting": 66.66666666666666,
+      "lastUpdateTime": "2024-10-14T17:29:12+02:00",
+      "percentageCounting": 100,
       "votePlace": {
-        "done": 2,
+        "done": 3,
         "total": 3
       },
       "parties": [
-        {
-          "id": "7001441",
-          "name": "Farcitoyenne 6240",
-          "slug": "farcitoyenne-6240",
-          "color": "#987255",
-          "currentCount": 758,
-          "previousCount": -1,
-          "currentSeats": 4,
-          "previousSeats": 0
-        },
-        {
-          "id": "7001442",
-          "name": "DC",
-          "slug": "dc",
-          "color": "#466475",
-          "currentCount": 74,
-          "previousCount": -1,
-          "currentSeats": 0,
-          "previousSeats": 0
-        },
         {
           "id": "7001440",
           "name": "MR",
           "slug": "mr",
           "color": "#002eff",
-          "currentCount": 274,
+          "currentCount": 393,
           "previousCount": 150,
-          "currentSeats": 1,
+          "currentSeats": 0,
           "previousSeats": 0
         },
         {
@@ -17448,9 +17428,29 @@
           "name": "Equipe du Bourgmestre!",
           "slug": "equipe-du-bourgmestre",
           "color": "#466475",
-          "currentCount": 2462,
+          "currentCount": 3640,
           "previousCount": -1,
           "currentSeats": 16,
+          "previousSeats": 0
+        },
+        {
+          "id": "7001441",
+          "name": "Farcitoyenne 6240",
+          "slug": "farcitoyenne-6240",
+          "color": "#5c7165",
+          "currentCount": 1220,
+          "previousCount": -1,
+          "currentSeats": 5,
+          "previousSeats": 0
+        },
+        {
+          "id": "7001442",
+          "name": "DC",
+          "slug": "dc",
+          "color": "#466475",
+          "currentCount": 102,
+          "previousCount": -1,
+          "currentSeats": 0,
           "previousSeats": 0
         },
         {
@@ -17477,14 +17477,14 @@
           "id": "7901707",
           "name": "FARCITOYENNE",
           "slug": "farcitoyenne",
-          "color": "#5c7165",
+          "color": "#466475",
           "currentCount": -1,
           "previousCount": 1269,
           "currentSeats": 0,
           "previousSeats": 4
         }
       ],
-      "voteTotalNew": 3565,
+      "voteTotalNew": 5352,
       "voteTotalOld": 5640,
       "seatTotalNew": 21,
       "seatTotalOld": 21
@@ -46251,7 +46251,7 @@
       9052
     ],
     "results": {
-      "lastUpdateTime": "2024-10-14T09:54:01+02:00",
+      "lastUpdateTime": "2024-10-14T11:35:08+02:00",
       "percentageCounting": 100,
       "votePlace": {
         "done": 90,
