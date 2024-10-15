@@ -80,7 +80,7 @@ const currentLocationData = computed(() =>
 <template>
   <div class="app">
     <header class="section">
-      <h1 class="title is-2">Ca vote quoi ici&nbsp;?</h1>
+      <h1 class="title is-2">Ça vote quoi ici&nbsp;?</h1>
       <p class="subtitle is-4">
         Recherche rapide des résultats des élections communales de 2024
       </p>
